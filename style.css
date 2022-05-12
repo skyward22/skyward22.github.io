@@ -1,15 +1,134 @@
+* {
+    cursor:default;
+    margin: 0;
+    padding: 0;
+    font-family: 'fantasy', copperplate;
+
+}
+
 body {
     font-family: Roboto, sans-serif;
     background-image: url('');
-    background-size: cover;
-    width: 100%;
-    height: 200px;
   }
   
   header {
-    padding: 30px;
-    margin: 0px;
-    background-image: url('https://thumbs.gfycat.com/DenseYoungCrow-max-1mb.gif');
+    padding: 20px 0;
+        background-image: url('');
+    background-size: contain;
+    color: white;
+  }
+  
+  header .row,
+  footer .row {
+    display: flex;
+    align-items: center;
+  }
+  
+  h1 {
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  a {
+    padding: 0 20px;
+    margin: 0;
+  }
+  
+  .jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url('');
     background-size: cover;
+    color: #ffffff;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnpILOm7RZDq4Lt_25ojzmBjJ2kkHUKSQqWQ&usqp=CAU");
+    background-size: contain;
+  }
+  
+  .jumbotron h2 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+    color: #fff;
+  }
+  
+  .jumbotron h3 {
+    margin: 0 0 20px;
+    color: #fff;
+  }
+  
+  section .row img {
+    margin: 0 0 30px;
+    width: 100%;
+  }
+  
+  .col-md-6 {
+    margin: 0 0 30px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .btn.btn-primary {
+    border-radius: 2px;
+    border: 0px;
+    color: #fbd1d5;
+    background-color: #ffffff;
+  }
+  
+  .btn.btn-primary:hover {
+    color: #ffffff;
+    background-color: #fbd1d5;
+  }
+  
+  .btn-secondary {
+    background-color: #2a70e0;
+    color: #ffffff;
+    margin: 0 0 30px;
+  }
+  
+  .portrait {
+    width:  350px;
+    height: 300px;
+  }
+  
+  .devicon-nodejs-plain {
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+  }
+
+  .devicon-javascript-plain {
+    height: 100px;
+    width: 100px;
+  }
+          
+  
+  figure img {
+    width: 100%;
+    height: auto;
+  }
+  
+  figure {
+    margin-bottom: 30px;
+  }
+  
+  footer {
+    font-size: 12px;
+    padding: 20px 0;
+  }
+  
+  footer .col-sm-8 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  footer ul {
+    list-style: none;
   }
   
